@@ -1,0 +1,16 @@
+file:///home/admin/Descargas/Dotfiles-i3WM-White/Install%20packages.txt {"mtime":1763075584000,"ctime":1764299261250,"size":460,"etag":"3f60r6ks3eq","orphaned":false,"typeId":""}
+####
+#Install apps
+####
+
+# important
+sudo pacman -S i3-wm rofi polybar picom visual-studio-code-bin l3afpad gwenview feh mpv mpv-mpris kitty firefox xfce4-screenshooter spotify yay thunar gnome-disk-utility nwg-look fastfetch polkit-gnome cava htop bpytop brightnessctl pavucontrol
+
+# Important extras
+yay -S asciiquarium spicetify-cli stacer-bin 
+
+# Startup Manager 
+sudo pacman -S sddm
+
+# Run chmod +x
+# (i3/Scripts+Widgets/All)+(polybar/launch.sh)+(cava/config_raw)

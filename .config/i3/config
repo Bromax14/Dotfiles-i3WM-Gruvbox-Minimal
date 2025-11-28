@@ -1,0 +1,19 @@
+##############
+# Configuracion #
+##############
+
+#Tecla Win
+set $mod Mod4
+
+# Tecla ALT
+# mod1 = ALT
+
+# Tecla Control
+# ctrl = Control
+
+# Include
+include ~/.config/i3/Keybinds
+include ~/.config/i3/Autostart
+include ~/.config/i3/Resize
+include ~/.config/i3/Multimedia
+include ~/.config/i3/Rules

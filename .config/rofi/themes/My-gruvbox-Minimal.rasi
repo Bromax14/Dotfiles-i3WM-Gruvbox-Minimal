@@ -1,0 +1,77 @@
+/*
+* Minimal Gruvbox Style
+*/
+
+configuration {
+  font: "Adwaita Sans 10";
+
+  drun {
+    display-name: "[^.^] Apps";
+  }
+
+  run {
+    display-name: "[°.°] Run";
+  }
+
+  window {
+    display-name: "[*.*] Windows";
+  }
+
+  timeout {
+    delay: 10;
+    action: "kb-cancel";
+  }
+}
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  spacing: 0;
+
+  bg: #312f2e;
+  bg-alt: #737373;
+  fg: #e6ddb7;
+  fg-alt: #737373;
+
+  background-color: @bg;
+  text-color: @fg;
+}
+
+window {
+  transparency: "real";
+  width: 400px;
+}
+
+mainbox {
+  children: [inputbar, listview];
+}
+
+inputbar {
+  children: [prompt, entry];
+}
+
+entry {
+  padding: 12px 0;
+}
+
+prompt {
+  padding: 12px;
+}
+
+listview {
+  lines: 8;
+}
+
+element {
+  children: [element-text];
+}
+
+element-text {
+  padding: 12px;
+  text-color: @fg-alt;
+}
+
+element-text selected {
+  text-color: @fg;
+}

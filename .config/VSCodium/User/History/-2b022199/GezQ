@@ -1,0 +1,117 @@
+####
+# Keybinds
+####
+
+# Apps
+
+# Archivos 
+bindsym $mod+e exec thunar
+
+# Navegador 
+bindsym $mod+b exec firefox
+
+# Visual Code 
+bindsym $mod+c exec vscodium
+
+# Spotify
+bindsym $mod+s exec spotify
+
+# Terminal 
+bindsym $mod+Return exec kitty
+
+# Captura
+bindsym $mod+j exec xfce4-screenshooter
+
+# Menu
+bindsym $mod+d exec rofi -show drun
+
+# Cambiar Wallpapers
+bindsym $mod+shift+w exec ~/.config/i3/Scripts/Selector-Wallpaper.sh
+
+# Menu De Apagado
+bindsym $mod+shift+l exec ~/.config/i3/Scripts/PowerMenu.sh
+
+####
+# Atajos ventanas
+####
+
+# Cerrar Ventana
+bindsym $mod+q kill 
+
+# Ventana Flotante
+bindsym $mod+space exec ~/.config/i3/Scripts/i3-Floating.sh
+floating_modifier $mod
+tiling_drag modifier titlebar
+
+####
+#Escritorios
+####
+
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
+
+# Desplazarse Escritorios
+bindsym $mod+1 workspace number $ws1
+bindsym $mod+2 workspace number $ws2
+bindsym $mod+3 workspace number $ws3
+bindsym $mod+4 workspace number $ws4
+bindsym $mod+5 workspace number $ws5
+bindsym $mod+6 workspace number $ws6
+bindsym $mod+7 workspace number $ws7
+bindsym $mod+8 workspace number $ws8
+bindsym $mod+9 workspace number $ws9
+bindsym $mod+0 workspace number $ws10
+
+# Mover Escritorios
+bindsym $mod+Shift+1 move container to workspace number $ws1
+bindsym $mod+Shift+2 move container to workspace number $ws2
+bindsym $mod+Shift+3 move container to workspace number $ws3
+bindsym $mod+Shift+4 move container to workspace number $ws4
+bindsym $mod+Shift+5 move container to workspace number $ws5
+bindsym $mod+Shift+6 move container to workspace number $ws6
+bindsym $mod+Shift+7 move container to workspace number $ws7
+bindsym $mod+Shift+8 move container to workspace number $ws8
+bindsym $mod+Shift+9 move container to workspace number $ws9
+bindsym $mod+Shift+0 move container to workspace number $ws10
+
+####
+# i3WM
+####
+# Reiniciar
+bindsym $mod+Shift+r restart
+
+#Recargar
+bindsym $mod+Shift+c reload
+
+####
+# Moverse por las ventanas
+####
+
+# Enfocar Ventanas
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# Enfocar y mover la Ventana
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# Mover a Horizontal
+bindsym $mod+k split h
+
+# Mover a Vertical
+bindsym $mod+m split v
+
+# Pantalla Completa
+bindsym $mod+f fullscreen toggle

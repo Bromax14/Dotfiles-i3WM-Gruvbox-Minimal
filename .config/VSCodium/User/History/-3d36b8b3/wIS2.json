@@ -1,0 +1,11 @@
+{
+    "workbench.navigationControl.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "window.menuBarVisibility": "compact",
+    "workbench.sideBar.location": "right",
+    "workbench.editor.showTabs": "single",
+    "editor.minimap.enabled": false,
+    "workbench.statusBar.visible": false,
+    "editor.fontFamily": "CaskaydiaCove Nerd Font",
+    "window.controlsStyle": "hidden"
+}

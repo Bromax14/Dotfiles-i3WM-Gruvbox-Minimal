@@ -1,0 +1,543 @@
+: 1763951564:0;sudo pacman -Ss color picker
+: 1763951581:0;sudo pacman -S xcolor
+: 1763951586:0;xcolor
+: 1763952347:0;ks
+: 1763952986:0;sudo pacman -Rns gwenview
+: 1763953000:0;sudo pacman -S pix
+: 1763953058:0;sudo pacman -Rns pix
+: 1763953108:0;sudo pacman -S gthumb
+: 1763953130:0;sudo pacman -Rns gthumb
+: 1763953155:0;feh
+: 1763953175:0;sudo pacman -Ss qimgv
+: 1763953179:0;sudo pacman -S qimgv
+: 1763953278:0;xprop
+: 1763953668:0;cava
+: 1763953760:0;sudo pacman -S gnome-disk-utility
+: 1763953767:0;sudo pacman -Rns gnome-disk-utility
+: 1763953773:0;fastfetch
+: 1763953785:0;sudo pacman -Ss disk
+: 1763953803:0;sudo pacman -S partitionmanager
+: 1763953847:0;sudo pacman -Rns partitionmanager
+: 1763953880:0;sudo pacman -S gdu
+: 1763953894:0;gdu
+: 1763953903:0;sudo pacman -Rns gdu
+: 1763954002:0;sudo pacman -S gparted
+: 1763954038:0;sudo pacman -Rns gparted
+: 1763954128:0;sudo pacman -S xfce4-diskperf-plugin
+: 1763954148:0;sudo pacman -Rns xfce4-diskperf-plugin
+: 1763954170:0;sudo pacman -Ss lxqt-
+: 1763954180:0;sudo pacman -Ss lxqt-admin
+: 1763954183:0;sudo pacman -S lxqt-admin
+: 1763954197:0;lxqt-admin
+: 1763954206:0;sudo pacman -Rns lxqt-admin
+: 1763954251:0;sudo cfdisk\
+
+: 1763954266:0;sudo nano .zshrc
+: 1763954308:0;Disk
+: 1763954315:0;sudo nano .zshrc
+: 1763954337:0;CFdisk
+: 1763954344:0;sudo nano .zshrc
+: 1763954465:0;sudo pacman -S gparted
+: 1763954741:0;sudo pacman -Rns gparted
+: 1763954754:0;sudo pacman -S gnome-disk-utility
+: 1763954885:0;sudo pacman -S starship
+: 1763954908:0;ls
+: 1763954918:0;fastfetch
+: 1763954947:0;ls
+: 1763955047:0;sudo nano .zshrc
+: 1763955059:0;ls
+: 1763955288:0;sudo nano .zshrc
+: 1763955308:0;sudo nano .config/kitty/kitty.conf
+: 1763955316:0;sudo nano .zshrc
+: 1763955327:0;sudo nano .config/kitty/kitty.conf
+: 1763955337:0;ls
+: 1763955357:0;fastfetch
+: 1763955363:0;sudo nano .zshrc
+: 1763955380:0;sudo nano .config/kitty/kitty.conf
+: 1763955402:0;sudo nano .zshrc
+: 1763955585:0;sudo pacman -S plank
+: 1763955593:0;Plank
+: 1763955597:0;plank
+: 1763955876:0;sudo pacman -S python-i3ipc\
+
+: 1763955908:0;nano ~/.config/i3/Scripts/plank-padding.py\
+\
+
+: 1763955932:0;chmod +x ~/.config/i3/Scripts/plank-padding.py\
+
+: 1763955948:0;cd .config/i3\
+
+: 1763955949:0;ls
+: 1763955954:0;sudo nano Autostart
+: 1763956050:0;./plank-padding.py
+: 1763956140:0;sudo pacman -Rns plank
+: 1763956374:0;sudo pacman -S tint2
+: 1763956380:0;cd .config/i3\
+
+: 1763956384:0;sudo nano Autostart
+: 1763956407:0;tint2
+: 1763956438:0;mkdir -p ~/.config/tint2\
+cp /etc/xdg/tint2/tint2rc ~/.config/tint2/tint2rc\
+
+: 1763957211:0;pkill tint2 && tint2 &
+: 1763957230:0;tint2 &
+: 1763957313:0;pkill tint2 && tint2 &
+: 1763957315:0;tint2 &
+: 1763957351:0;pkill tint2 && tint2 &
+: 1763957548:0;tint2 &
+: 1763957607:0;pkill tint2
+: 1763957616:0;sudo pacman -Rns tint2
+: 1763957635:0;sudo pacman -Ss latte
+: 1763957644:0;sudo pacman -Ss latte-dock
+: 1763957730:0;sudo pacman -S latte-dock
+: 1763957772:0;sudo pacman -S tiny2
+: 1763957775:0;sudo pacman -S tint2
+: 1763957805:0;sudo nano ~/.config/tint2/tint2rc\
+
+: 1763957893:0;xprop
+: 1763958100:0;sudo pacman -Rns tint2
+: 1763958323:0;yay -Ss stacer
+: 1763958523:0;sudo pacman -Ss phinger
+: 1763958530:0;yay -Ss phinger
+: 1763958538:0;yay -S phinger-cursors
+: 1763958621:0;wget -cO- https://github.com/phisch/phinger-cursors/releases/latest/download/phinger-cursors-variants.tar.bz2 | tar xfj - -C ~/.icons
+: 1763958687:0;git clone https://github.com/rehanzo/phinger-cursors-gruvbox-material.git
+: 1763958754:0;yay -Rns phinger-cursors
+: 1763959044:0;yay -S capitaine-cursors-sainnhe-git
+: 1763959129:0;cava
+: 1763959343:0;cd .config/i3\
+
+: 1763959347:0;sudo nano Keybinds
+: 1763959413:0;cava
+: 1763959431:0;sudo pacman -S cmatrix
+: 1763959437:0;asciiquarium
+: 1763959479:0;cmatrix
+: 1763959549:0;sudo pacman -S vscodium spotify
+: 1763959911:0;nmtui
+: 1763960648:0;cd /
+: 1763960653:0;cd usr/share/applications
+: 1763960654:0;ls
+: 1763960662:0;sudo rm vscodium-wayland.desktop
+: 1763961468:0;ls
+: 1763961545:0;exit
+: 1763962338:0;fastfetch
+: 1763962344:0;cmatrix
+: 1763962519:0;sudo chmod a+wr /opt/spotify\
+sudo chmod a+wr /opt/spotify/Apps -R
+: 1763962527:0;curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh | sh
+: 1763962546:0;spicetify backup apply
+: 1763962703:0;git clone https://github.com/giovanebribeiro/spotify-gruvbox-theme
+: 1763962705:0;ls
+: 1763962708:0;cd spotify-gruvbox-theme
+: 1763962708:0;ls
+: 1763962846:0;spicetify update
+: 1763963013:0;git clone --depth=1 https://github.com/spicetify/spicetify-themes.git 
+: 1763963071:0;cd spicetify-themes\
+cp -r * ~/.config/spicetify/Themes
+: 1763963479:0;cd ~/.config/spicetify/Themes\
+git clone https://github.com/khanhas/spicetify-themes.git
+: 1763963486:0;git clone --depth=1 https://github.com/spicetify/spicetify-themes.git 
+: 1763963614:0;cd spicetify-themes\
+cp -r * ~/.config/spicetify/Themes
+: 1763963654:0;ls
+: 1763963660:0;spicetify config current_theme text
+: 1763963671:0;spicetify apply
+: 1763963736:0;cd ~/.config/spicetify/Themes
+: 1763963737:0;ls
+: 1763963751:0;spicetify config current_theme Blossom
+: 1763963753:0;spicetify apply
+: 1763963802:0;spicetify config current_theme Matte
+: 1763963804:0;spicetify apply
+: 1763963859:0;cd ~/.config/spicetify/Themes
+: 1763963863:0;spicetify config current_theme Nightlight
+: 1763963865:0;spicetify apply
+: 1763963910:0;spicetify config current_theme Turntable
+: 1763963911:0;spicetify apply
+: 1763963945:0;spicetify config current_theme SharkBlue
+: 1763963947:0;spicetify apply
+: 1763963994:0;spicetify config current_theme Dreary
+: 1763963995:0;spicetify apply
+: 1763964034:0;spicetify config current_theme Sleek
+: 1763964035:0;spicetify apply
+: 1763964089:0;spicetify config current_theme Ziro
+: 1763964090:0;spicetify apply
+: 1763964311:0;spicetify config current_theme Blackout
+: 1763964313:0;spicetify apply
+: 1763964373:0;xcolor
+: 1763964428:0;spicetify config current_theme Blackout
+: 1763964431:0;spicetify apply
+: 1763964496:0;xcolor
+: 1763964515:0;spicetify config current_theme Blackout
+: 1763964516:0;spicetify apply
+: 1763964556:0;xcolor
+: 1763967039:0;ls
+: 1763967049:0;fastfetch
+: 1763967353:0;sudo nano .zshrc
+: 1763967400:0;fastfetch --list-logos
+: 1763967479:0;find ~/.local/share/fastfetch/logo/ ~/.config/fastfetch/logo/ -name "*arch*" -type f 2>/dev/null
+: 1763967503:0;find /usr/share/fastfetch/logo/ -name "*arch*" -type f 2>/dev/null
+: 1763967518:0;sudo nano .zshrc
+: 1763967538:0;ls -la /usr/share/fastfetch/logo/arch_small
+: 1763967544:0;fastfetch --print-logos arch_small
+: 1763967602:0;cat /usr/share/fastfetch/logo/arch_small
+: 1763967996:0;git clone --depth 1 https://github.com/m3tozz/FastCat.git && cd FastCat && bash ./fastcat.sh --shell 
+: 1763968839:0;sudo pacman -Rns fastfetch
+: 1763968862:0;sudo pacman -S neofetch
+: 1763968871:0;neofetch
+: 1763968918:0;git clone --depth 1 https://github.com/m3tozz/NeoCat.git && cd NeoCat && bash ./neocat.sh --shell
+: 1763969781:0;ls
+: 1763969821:0;git clone --depth 1 https://github.com/m3tozz/NeoCat.git && cd NeoCat && bash ./neocat.sh --shell
+: 1763969837:0;./NeoCat
+: 1763969849:0;./neocat.sh --shell
+: 1763969854:0;sudo ./neocat.sh --shell
+: 1763969878:0;sudo chmod +x neocat.sh
+: 1763969880:0;sudo ./neocat.sh --shell
+: 1763969947:0;git clone --depth 1 https://github.com/m3tozz/NeoCat.git && cd NeoCat && bash ./neocat.sh --shell
+: 1763969974:0;sudo ./neocat.sh neocat.sh --shell
+: 1763969985:0;sudo ./neocat.sh --shell
+: 1763970226:0;source .zshrc
+: 1764018568:0;ls
+: 1764018735:0;cava
+: 1764018789:0;yay -S stacer-bin
+: 1764018904:0;cava
+: 1764019170:0;xprop
+: 1764019371:0;pactl list sinks short
+: 1764019404:0;pactl set-sink-volume alsa_output.pci-0000_00_1b.0.analog-stereo 100%
+: 1764019482:0;sudo nano ~/.local/bin/volume_limited.sh
+: 1764019753:0;sudo nano volume_limited.sh
+: 1764019778:0;sudo chmod +x volume_limited.sh
+: 1764019986:0;sudo nano volume_limited.sh
+: 1764020651:0;ls
+: 1764020657:0;cd ~/.config/i3
+: 1764020658:0;ls
+: 1764020689:0;htop
+: 1764020697:0;xprop
+: 1764020885:0;sudo chmod +x xfce4-about.desktop
+: 1764020920:0;sudo cp -r xfce4-about.desktop ~
+: 1764020997:0;sudo chmod 777 xfce4-about.desktop
+: 1764021336:0;sudo nano xfce4-about.desktop
+: 1764021408:0;sudo cp -r xfce4-about.desktop ~/.local/share/applications
+: 1764021471:0;sudo nano xfce4-about.desktop
+: 1764021487:0;sudo chmod 777 xfce4-about.desktop
+: 1764021519:0;cd ~/.config/i3
+: 1764021524:0;sudo nano Keybinds
+: 1764021701:0;xprop
+: 1764021988:0;sudo nano Keybinds
+: 1764022212:0;ls
+: 1764022228:0;sudo nano InfoMenu.sh
+: 1764022255:0;sudo chmod +x InfoMenu.sh
+: 1764022287:0;rofi -show modi "InfoMenu.sh"
+: 1764022296:0;rofi -show drun "InfoMenu.sh"
+: 1764022330:0;rofi -show modi "InfoMenu.sh" -run-command '{cmd}'
+: 1764022349:0;./InfoMenu.sh
+: 1764022363:0;sudo nano InfoMenu.sh
+: 1764022378:0;./InfoMenu.sh
+: 1764022388:0;sudo nano InfoMenu.sh
+: 1764022407:0;./InfoMenu.sh
+: 1764022440:0;sudo nano InfoMenu.sh
+: 1764022493:0;sudo chmod +x InfoMenu.sh
+: 1764022494:0;./InfoMenu.sh
+: 1764022554:0;rofi -show combi -combi-modi "InfoMenu.sh" -modi combi
+: 1764022595:0;rofi -show combi -combi-modi "sysinfo:~/.config/i3/Scripts/InfoMenu.sh" -modi combi
+: 1764022634:0;rofi -show combi -combi-modi "~/.config/i3/Scripts/InfoMenu.sh" -modi combi
+: 1764022646:0;rofi -show -combi-modi "sysinfo:~/.config/i3/Scripts/InfoMenu.sh" -modi combi
+: 1764022650:0;rofi -show combi -combi-modi "~/.config/i3/Scripts/InfoMenu.sh" -modi combi
+: 1764022654:0;rofi -show -combi-modi "sysinfo:~/.config/i3/Scripts/InfoMenu.sh" -modi combi
+: 1764022667:0;./InfoMenu.sh
+: 1764022672:0;sudo nano InfoMenu.sh
+: 1764022682:0;./InfoMenu.sh
+: 1764022686:0;sudo nano InfoMenu.sh
+: 1764022698:0;./InfoMenu.sh
+: 1764022766:0;rofi -show -combi-modi "sysinfo:~/.config/i3/Scripts/InfoMenu.sh" -modi combi
+: 1764022772:0;rofi -show combi -combi-modi "~/.config/i3/Scripts/InfoMenu.sh" -modi combi
+: 1764022783:0;rofi -show combi -combi-modi "sysinfo:~/.config/i3/Scripts/InfoMenu.sh" -modi combi
+: 1764022861:0;cd ..
+: 1764022865:0;sudo nano Keybinds
+: 1764023156:0;sudo nano InfoMenu.sh
+: 1764023192:0;sudo chmod +x InfoMenu.sh
+: 1764023198:0;sudo nano InfoMenu.sh
+: 1764023213:0;./InfoMenu.sh
+: 1764023290:0;sudo nano InfoMenu.sh
+: 1764023340:0;./InfoMenu.sh
+: 1764023386:0;sudo nano InfoMenu.sh
+: 1764023392:0;sudo chmod +x InfoMenu.sh
+: 1764023394:0;./InfoMenu.sh
+: 1764023439:0;# Intenta este primero\
+lscpu | grep "Model name" | head -n 1 | cut -d':' -f2- | xargs
+: 1764023444:0;lscpu | grep "Model name" | head -n 1 | cut -d':' -f2- | xargs
+: 1764023453:0;grep 'model name' /proc/cpuinfo | head -n 1 | cut -d':' -f2- | xargs
+: 1764023509:0;sudo nano InfoMenu.sh
+: 1764023523:0;sudo chmod +x InfoMenu.sh
+: 1764023525:0;./InfoMenu.sh
+: 1764023556:0;sudo nano InfoMenu.sh
+: 1764023570:0;cd .config/i3\
+
+: 1764023573:0;cd Scripts
+: 1764023578:0;./InfoMenu.sh
+: 1764023818:0;cd Scripts
+: 1764023819:0;./InfoMenu.sh
+: 1764024188:0;sudo nano InfoMenu.sh
+: 1764024945:0;kitten choose-font
+: 1764024974:0;ls
+: 1764025146:0;sudo nano PowerMenu.sh
+: 1764025184:0;sudo nano InfoMenu.sh
+: 1764027380:0;asciiquarium
+: 1764027401:0;cmatrix
+: 1764027421:0;cava
+: 1764027962:0;xcolor
+: 1764030731:0;sudo pacman -S vesktop
+: 1764031094:0;wget https://x.com/Cookiep49546542
+: 1764031118:0;wget https://pbs.twimg.com/profile_images/1391747719040049153/7Li04vjY_400x400.jpg
+: 1764031846:0;cd .config/i3\
+
+: 1764031847:0;ls
+: 1764031851:0;sudo nano Keybinds
+: 1764034065:0;ls
+: 1764034068:0;cava
+: 1764034748:0;xcolor
+: 1764035116:0;curl -s "https://raw.githubusercontent.com/shvedes/discord-gruvbox/refs/heads/main/install.sh" | bash
+: 1764035358:0;xcolor
+: 1764035431:0;ls
+: 1764035434:0;cava
+: 1764035559:0;ls
+: 1764044332:0;sudo pacman -Ss rofi-
+: 1764044342:0;sudo pacman -Ss rofi-clip
+: 1764044348:0;yay -Ss rofi-clip
+: 1764044369:0;sudo pacman -Ss rofi-greenclip
+: 1764044374:0;sudo pacman -S rofi-greenclip
+: 1764044390:0;rofi-greenclip
+: 1764044409:0;sudo pacman -Qs rofi
+: 1764044426:0;rofi
+: 1764044441:0;rofi modes
+: 1764044453:0;rofi -show greenclip
+: 1764044465:0;rofi -show filebrowser
+: 1764044485:0;rofi -show 
+: 1764044488:0;rofi -show
+: 1764044499:0;cd .config/i3\
+
+: 1764044502:0;sudo nano Keybinds
+: 1764044622:0;cd .config/i3\
+
+: 1764044623:0;sudo nano Keybinds
+: 1764044668:0;sudo nano minimal.rasi
+: 1764045043:0;sudo pacman -S albert
+: 1764045062:0;albert
+: 1764045190:0;sudo pacman -Rns albert
+: 1764045331:0;sudo pacman -S skippy-xd
+: 1764045491:0;cd .config/i3\
+
+: 1764045493:0;sudo nano minimal.rasi
+: 1764045496:0;cd .config/i3\
+
+: 1764045499:0;sudo nano Keybinds
+: 1764045729:0;cd .config/i3\
+
+: 1764045730:0;ls
+: 1764045743:0;cd .config/i3\
+
+: 1764045745:0;ls
+: 1764045749:0;cd .config/i3\
+
+: 1764045753:0;ls
+: 1764045759:0;sudo nano config
+: 1764045769:0;cd Scripts
+: 1764045771:0;ls
+: 1764045886:0;sudo nano InfoMenu.sh
+: 1764045954:0;sudo nano PowerMenu.sh
+: 1764045958:0;sudo nano InfoMenu.sh
+: 1764045979:0;sudo nano i3-Floating.sh
+: 1764046009:0;sudo nano volume_limited.sh
+: 1764046676:0;bpytop
+: 1764046904:0;cd .config/i3\
+
+: 1764046908:0;sudo nano Keybinds
+: 1764047033:0;xpr
+: 1764047037:0;xprop
+: 1764047068:0;sudo nano Rules
+: 1764047980:0;sudo pacman -S xf86-video-intel mesa lib32-mesa
+: 1764048034:0;glxinfo | grep "OpenGL renderer"
+: 1764048047:0;sudo pacman -S glxinfo
+: 1764048050:0;glxinfo | grep "OpenGL renderer"
+: 1764048055:0;vainfo
+: 1764048064:0;sudo pacman -S vainfo
+: 1764048070:0;sudo pacman -S gstreamer gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly gst-libav ffmpeg
+: 1764048104:0;sudo pacman -S vainfo
+: 1764048107:0;vainfo
+: 1764048130:0;sudo pacman -S libva-utils
+: 1764048133:0;vainfo
+: 1764048166:0;sudo pacman -S intel-media-driver
+: 1764048174:0;sudo pacman -S libva-intel-driver
+: 1764048180:0;vainfo
+: 1764048239:0;sudo pacman -S tlp\
+sudo systemctl enable tlp
+: 1764048274:0;sudo systemctl status tlp
+: 1764048279:0;sudo tlp-stat
+: 1764048334:0;sudo pacman -S ethtool smartmontools
+: 1764048338:0;sudo tlp-stat
+: 1764108158:0;cd .config/i3\
+
+: 1764108164:0;sudo nano Keybinds
+: 1764108271:0;sudo pacman -S mailspring
+: 1764108306:0;bpytop
+: 1764108318:0;cd .config/i3\
+
+: 1764108319:0;sudo nano Keybinds
+: 1764108323:0;cd .config/i3\
+
+: 1764108324:0;ls
+: 1764108332:0;sudo nano Rules
+: 1764108591:0;cd .config/i3\
+
+: 1764108593:0;sudo nano Keybinds
+: 1764108896:0;sudo pacman -S lxtask
+: 1764108927:0;cd .config/i3\
+
+: 1764108931:0;sudo nano Rules
+: 1764108992:0;xprop
+: 1764109396:0;ls
+: 1764109413:0;cava
+: 1764109420:0;cmatrix
+: 1764109466:0;asciiquarium
+: 1764109477:0;cmatrix
+: 1764110274:0;sudo pacman -Rns vesktop
+: 1764110443:0;sudo pacman -S vesktop
+: 1764110498:0;sudo pacman -Syyu
+: 1764113162:0;sudo pacman -Rns vesktop
+: 1764113168:0;sudo pacman -Syyu
+: 1764113498:0;nmtui
+: 1764113507:0;sudo pacman -Syyu
+: 1764113539:0;sudo pacman -S vesktop
+: 1764113797:0;sudo pacman -Rns vesktop
+: 1764113913:0;sudo pacman -S vesktop
+: 1764113986:0;sudo systemctl status tlp
+: 1764114002:0;bpytop
+: 1764116234:0;cd .config/i3\
+
+: 1764116243:0;sudo nano Rules
+: 1764116250:0;cd .config/i3\
+
+: 1764116254:0;sudo nano Keybinds
+: 1764116299:0;sudo pacman -Ss lxtask
+: 1764116308:0;sudo pacman -Ss monitor
+: 1764116355:0;sudo pacman -S plasma-systemmonitor
+: 1764116402:0;sudo pacman -Rns plasma-systemmonitor
+: 1764116421:0;sudo pacman -Rns lxtask
+: 1764116434:0;sudo pacman -Ss system
+: 1764116471:0;sudo pacman -Ss systemmonitor
+: 1764116476:0;sudo pacman -Ss monitor
+: 1764116500:0;sudo pacman -S gnome-system-monitor
+: 1764116522:0;sudo pacman -Rns gnome-system-monitor
+: 1764116695:0;sudo pacman -S gotop
+: 1764116719:0;gotop
+: 1764116734:0;sudo pacman -Rns gotop
+: 1764116746:0;cd .config/i3\
+
+: 1764116750:0;sudo nano Keybinds
+: 1764118548:0;cava
+: 1764118650:0;sudo chmod a+wr /opt/spotify\
+sudo chmod a+wr /opt/spotify/Apps -R
+: 1764118665:0;curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh | sh
+: 1764118689:0;spicetify backup apply
+: 1764118808:0;sudo pacman -S dunst
+: 1764118824:0;cd .config/i3\
+
+: 1764118829:0;sudo nano Autostart
+: 1764118921:0;nmtui
+: 1764119026:0;dunst
+: 1764119061:0;kill 9523
+: 1764119066:0;pkill dunst
+: 1764119068:0;dunst
+: 1764119084:0;dunst &
+: 1764119162:0;notify-send "�Hola Broki "Esto es una prueba de Dunst funcionando"\
+\
+
+: 1764119250:0;ps aux | grep dunst
+: 1764119473:0;notify-send "Hola" "¿Me ves?"
+: 1764119502:0;mkdir -p ~/.config/dunst
+: 1764119522:0;cat > ~/.config/dunst/dunstrc << 'EOF'\
+[global]\
+    # Duración por defecto de las notificaciones (en milisegundos)\
+    timeout = 5000\
+    # Fuente\
+    font = sans-serif 10\
+    # Colores (fondo, texto, borde)\
+    background = "#2d3748"\
+    foreground = "#e2e8f0"\
+    frame_color = "#4a5568"\
+    # Tamaño\
+    width = 300\
+    height = 150\
+    # Margen\
+    offset = 20x20\
+    # Posición (top-left, top-center, top-right, bottom-left, etc.)\
+    origin = top-right\
+\
+[experimental]\
+    # Transparencia (si tu compositor lo soporta)\
+    per_monitor_dpi = false\
+\
+# Ejemplo de una categoría especial\
+[urgency_low]\
+    timeout = 3000\
+    background = "#2d3748"\
+    foreground = "#a0aec0"\
+\
+[urgency_normal]\
+    timeout = 5000\
+    background = "#4a5568"\
+    foreground = "#e2e8f0"\
+\
+[urgency_critical]\
+    timeout = 0\
+    background = "#e53e3e"\
+    foreground = "#fff"\
+EOF
+: 1764119538:0;notify-send "Hola" "¿Me ves?"
+: 1764119578:0;cd ~/.config/dunst
+: 1764119589:0;vscodium dunstrc
+: 1764119638:0;notify-send "Hola" "¿Me ves?"
+: 1764119665:0;sudo notify-send "Hola" "¿Me ves?"
+: 1764119672:0;notify-send "Hola" "¿Me ves?"
+: 1764119863:0;dunstify "Hola Broki"
+: 1764119986:0;vscodium dunstrc
+: 1764120059:0;dunstify "Hola Broki"
+: 1764120170:0;sudo dunstify "Hola Broki"OA
+: 1764120175:0;dunstify "Hola Broki"
+: 1764120179:0;notify-send "Hola" "¿Me ves?"
+: 1764120488:0;pkill dunst
+: 1764120496:0;dunst &
+: 1764120502:0;notify-send "Hola" "¿Me ves?"
+: 1764120569:0;pkill dunst
+: 1764120570:0;dunst &
+: 1764120572:0;notify-send "Hola" "¿Me ves?"
+: 1764120577:0;dunst &
+: 1764120628:0;pkill dunst
+: 1764120631:0;dunst &
+: 1764120636:0;notify-send "Hola" "¿Me ves?"
+: 1764120661:0;pkill dunst
+: 1764120662:0;dunst &
+: 1764120665:0;notify-send "Hola" "¿Me ves?"
+: 1764120700:0;pkill dunst
+: 1764120703:0;notify-send "Hola" "¿Me ves?"
+: 1764120725:0;pkill dunst
+: 1764120727:0;notify-send "Hola" "¿Me ves?"
+: 1764120766:0;pkill dunst
+: 1764120766:0;notify-send "Hola" "¿Me ves?"
+: 1764120800:0;pkill dunst
+: 1764120802:0;notify-send "Hola" "¿Me ves?"
+: 1764120951:0;sudo pacman -Ss monitor
+: 1764121258:0;notify-send "Hola" "¿Me ves?"
+: 1764121291:0;sudo pacman -S libdunst
+: 1764121296:0;sudo pacman -Ss libdunst
+: 1764121304:0;yay -Ss libdunst
+: 1764121323:0;sudo pacman -Ss libnotify
+: 1764121337:0;yay -Ss libnotify
+: 1764121654:0;sudo pacman -Rns dunst
+: 1764121684:0;notify-send "Hola" "¿Me ves?"
+: 1764121695:0;pkill dunst
+: 1764121697:0;notify-send "Hola" "¿Me ves?"
+: 1764121728:0;bpytop
+: 1764121964:0;./InfoMenu.sh
+: 1764122033:0;sudo nano InfoMenu.sh
+: 1764122095:0;sudo pacman -Syyu
+: 1764133754:0;ls

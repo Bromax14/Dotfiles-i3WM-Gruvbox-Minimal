@@ -1,0 +1,6 @@
+{
+    "workbench.navigationControl.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "window.menuBarVisibility": "compact",
+    "workbench.sideBar.location": "right"
+}

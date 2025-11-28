@@ -1,0 +1,36 @@
+[global]
+    # Duración por defecto de las notificaciones (en milisegundos)
+    timeout = 5000
+    # Fuente
+    font = sans-serif 10
+    # Colores (fondo, texto, borde)
+    background = "#e6ddb7"
+    foreground = "#e2e8f0"
+    frame_color = "#4a5568"
+    # Tamaño
+    width = 300
+    height = 150
+    # Margen
+    offset = 20x20
+    # Posición (top-left, top-center, top-right, bottom-left, etc.)
+    origin = top-right
+
+[experimental]
+    # Transparencia (si tu compositor lo soporta)
+    per_monitor_dpi = false
+
+# Ejemplo de una categoría especial
+[urgency_low]
+    timeout = 3000
+    background = "#2d3748"
+    foreground = "#a0aec0"
+
+[urgency_normal]
+    timeout = 5000
+    background = "#4a5568"
+    foreground = "#e2e8f0"
+
+[urgency_critical]
+    timeout = 0
+    background = "#e53e3e"
+    foreground = "#fff"

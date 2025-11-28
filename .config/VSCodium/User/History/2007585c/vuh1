@@ -1,0 +1,18 @@
+[general]
+framerate = 60
+bars = 10          ; Número de barras (ajústalo según el ancho de tu polybar)
+bar_width = 1      ; Ancho de cada barra (1 es ideal para polybar)
+bar_spacing = 0    ; Espacio entre barras (0 para que no haya huecos)
+bar_height = 50    ; Altura máxima (no afecta visualmente en raw, pero sí en otros modos)
+upper_limit = 100
+lower_limit = 0
+
+[input]
+method = pulse
+source = auto
+
+[output]
+method = raw
+raw_target = /dev/stdout
+data_format = ascii
+ascii_max_range = 50

@@ -1,0 +1,7 @@
+{
+    "git.ignoreLimitWarning": true,
+    "workbench.tree.enableStickyScroll": true,
+    "workbench.editor.titleScrollbarVisibility": "auto",
+    "workbench.editor.titleScrollbarSizing": "default",
+    "editor.minimap.autohide": "none"
+}

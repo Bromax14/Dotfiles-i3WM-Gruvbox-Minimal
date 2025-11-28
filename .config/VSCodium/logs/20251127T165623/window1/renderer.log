@@ -1,0 +1,7 @@
+2025-11-27 16:56:25.205 [info] Started local extension host with pid 47789.
+2025-11-27 16:56:28.909 [error] Cannot read properties of undefined (reading 'extensionId'): TypeError: Cannot read properties of undefined (reading 'extensionId')
+    at t (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:4125:2745)
+    at _Dt.recommendRemoteExtensionIfNeeded (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:4125:3497)
+2025-11-27 16:56:29.321 [info] [perf] Render performance baseline is 91ms
+2025-11-27 16:56:30.380 [error] [text file model] handleSaveError(2) - exit - resulted in a save error: Error: No se puede escribir el archivo "/home/admin/.config/i3/Widgets/CalendarMenu.sh" (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/admin/.config/i3/Widgets/CalendarMenu.sh') file:///home/admin/.config/i3/Widgets/CalendarMenu.sh
+2025-11-27 16:56:40.398 [error] [text file model] handleSaveError(4) - exit - resulted in a save error: Error: No se puede escribir el archivo "/home/admin/.config/i3/Widgets/CalendarMenu.sh" (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/admin/.config/i3/Widgets/CalendarMenu.sh') file:///home/admin/.config/i3/Widgets/CalendarMenu.sh

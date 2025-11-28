@@ -1,0 +1,8 @@
+2025-11-27 13:43:04.666 [info] Started local extension host with pid 12414.
+2025-11-27 13:43:08.705 [error] Cannot read properties of undefined (reading 'extensionId'): TypeError: Cannot read properties of undefined (reading 'extensionId')
+    at t (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:4125:2745)
+    at mDt.recommendRemoteExtensionIfNeeded (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:4125:3497)
+2025-11-27 13:43:09.096 [info] [perf] Render performance baseline is 82ms
+2025-11-27 13:43:17.992 [error] [text file model] handleSaveError(13) - exit - resulted in a save error: Error: No se puede escribir el archivo "/home/admin/.config/i3/Widgets/Selector-Wallpaper.sh" (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/admin/.config/i3/Widgets/Selector-Wallpaper.sh') file:///home/admin/.config/i3/Widgets/Selector-Wallpaper.sh
+2025-11-27 13:43:30.813 [error] [text file model] handleSaveError(25) - exit - resulted in a save error: Error: No se puede escribir el archivo "/home/admin/.config/i3/Widgets/Selector-Wallpaper.sh" (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/admin/.config/i3/Widgets/Selector-Wallpaper.sh') file:///home/admin/.config/i3/Widgets/Selector-Wallpaper.sh
+2025-11-27 13:43:37.144 [error] [text file model] handleSaveError(29) - exit - resulted in a save error: Error: No se puede escribir el archivo "/home/admin/.config/i3/Widgets/Selector-Wallpaper.sh" (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/admin/.config/i3/Widgets/Selector-Wallpaper.sh') file:///home/admin/.config/i3/Widgets/Selector-Wallpaper.sh

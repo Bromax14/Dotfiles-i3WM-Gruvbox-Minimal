@@ -1,0 +1,21 @@
+####
+# Autostart
+####
+
+# i3WM
+exec --no-startup-id dex --autostart --environment i3
+
+#Notificaciones
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+
+# Dunst
+exec_always --no-startup-id dunst &
+
+# Picom
+exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
+
+# Polybar
+exec_always --no-startup-id ~/.config/polybar/launch.sh
+
+# Feh
+exec --no-startup-id feh --bg-scale "/home/admin/Imágenes/Wallpapers/starry-sky.png"

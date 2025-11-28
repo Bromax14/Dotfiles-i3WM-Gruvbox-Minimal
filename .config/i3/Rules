@@ -1,0 +1,23 @@
+########
+# Reglas #
+########
+
+# Bordes 
+gaps outer 0
+gaps inner 18
+
+for_window [class="^.*"] border pixel 0
+
+#Colores
+client.focused #FFFFFF #FFFFFF #FFFFFF #dedede
+client.unfocused #FFFFFF #FFFFFF #FFFFFF #FFFFFF #FFFFFF
+
+# Flotantes
+for_window [title="mpv"] floating enable
+for_window [class="qimgv"] floating enable, move position center, resize set 960 540
+for_window [class="stacer"] floating enable
+for_window [class="pavucontrol"] floating enable, move position center, resize set 856 486
+for_window [title="Biblioteca"] floating enable
+for_window [title="Discos"] floating enable
+for_window [title="xarchiver"] floating enable, resize set 856 486, move position center
+for_window [class="Nwg-look"] floating enable, resize set 856 486, move position center

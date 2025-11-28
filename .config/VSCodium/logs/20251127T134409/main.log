@@ -1,0 +1,6 @@
+2025-11-27 13:44:10.179 [info] update#setState disabled
+2025-11-27 13:44:10.182 [info] update#ctor - updates are disabled as there is no update URL
+2025-11-27 13:47:43.166 [error] [sudo-prompt] received stderr: Error executing command as another user: Request dismissed
+
+2025-11-27 13:48:23.222 [info] Extension host with pid 13102 exited with code: 0, signal: unknown.
+2025-11-27 13:48:23.344 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 13115]: crashed with code 15 and reason 'killed'
