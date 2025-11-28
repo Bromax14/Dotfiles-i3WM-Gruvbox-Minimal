@@ -5,7 +5,7 @@
 # Apps y Herramientas 
 sudo pacman -S i3-wm rofi polybar picom vscodium l3afpad qimgv feh mpv mpv-mpris kitty firefox xfce4-screenshooter spotify yay thunar gnome-disk-utility nwg-look neofetch polkit-gnome cava htop bpytop brightnessctl pavucontrol
 vesktop mailspring xarchiver git curl make cargo rust wget unzip unrar xcolor nano xsettingd zsh zsh-completions starship jq
-obsidian eww
+obsidian
 
 # ETC
 yay -S asciiquarium pipes.sh spicetify-cli stacer-bin 
