@@ -34,16 +34,6 @@ bindsym $mod+i exec xfce4-screenshooter
 bindsym $mod+d exec rofi -show drun
 
 ####
-# Menus
-####
-
-# Menu De Apagado
-bindsym $mod+shift+p exec ~/.config/i3/Widgets/PowerMenu.sh
-
-# Menu De Wallpapers
-bindsym $mod+shift+w exec ~/.config/i3/Widgets/Selector-Wallpaper.sh
-
-####
 # Atajos ventanas
 ####
 
