@@ -13,7 +13,7 @@ no=' No'
 # Rofi CMD
 rofi_cmd() {
 	rofi -dmenu \
-		-theme-str 'window {width: 250px; height: 230px; location: southeast; anchor: southeast; y-offset: -510; x-offset: -10; border: 0px; border-radius: 0px; background-color: #FFFFFF; border-color: #FFFFFF;}' \
+		-theme-str 'window {width: 250px; height: 230px; location: southeast; anchor: southeast; y-offset: -495; x-offset: -19; border: 0px; border-radius: 0px; background-color: #FFFFFF; border-color: #FFFFFF;}' \
 		-theme-str 'mainbox {padding: 10px; spacing: 10px;}' \
 		-theme-str 'listview {columns: 1; rows: 5; spacing: 5px;}' \
 		-theme-str 'element {padding: 0px; margin: 2px; border-radius: 0px; background-color: #000000;}' \
@@ -24,7 +24,7 @@ rofi_cmd() {
 
 # Confirmation CMD
 confirm_cmd() {
-	rofi -theme-str 'window {location: southeast; anchor: southeast; y-offset: -680; x-offset: -10; fullscreen: false; width: 250px;}' \
+	rofi -theme-str 'window {location: southeast; anchor: southeast; y-offset: -666; x-offset: -19; fullscreen: false; width: 250px;}' \
 		-theme-str 'mainbox {children: [ "message", "listview" ];}' \
 		-theme-str 'listview {columns: 2; lines: 1;}' \
 		-theme-str 'element-text {horizontal-align: 0.5;}' \

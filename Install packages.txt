@@ -13,6 +13,9 @@ yay -S asciiquarium pipes.sh spicetify-cli stacer-bin
 # Gestor de inicio
 sudo pacman -S lightdm lightdm-gtk-greeter
 
+# Iniciar El Gestor
+sudo systemctl enable lightdm
+
 # Cambiar de Bash a Zsh
 chsh -s $(which zsh)
 

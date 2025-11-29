@@ -25,8 +25,8 @@ CURRENT_WALLPAPER=$(grep "feh --bg-scale" ~/.config/i3/Autostart | cut -d '"' -f
 # Bucle para poder volver a seleccionar si no te gusta
 while true; do
   # Abre Rofi con la lista de wallpapers
-  SELECTED_WALLPAPER=$(echo "$WALLPAPER_LIST" | rofi -dmenu -i -p "Wallpapers" -esc 1 -theme-str 'window {location: southeast; anchor: southeast; y-offset: -390; x-offset: -10; fullscreen: false; width: 350px;
-height: 350px;}' -theme-str 'mainbox {padding: 10px; spacing: 10px;}' -theme-str 'listview {columns: 1; lines: 10;}' -theme-str 'element-text {font: "Adwaita Sans 10";}')
+  SELECTED_WALLPAPER=$(echo "$WALLPAPER_LIST" | rofi -dmenu -i -p "Wallpapers" -esc 1 -theme-str 'window {location: southeast; anchor: southeast; y-offset: -385; x-offset: -19; fullscreen: false; width: 350px;
+height: 340px;}' -theme-str 'mainbox {padding: 10px; spacing: 10px;}' -theme-str 'listview {columns: 1; lines: 10;}' -theme-str 'element-text {font: "Adwaita Sans 10";}')
   ROFI_EXIT_CODE=$?
 
   # Verifica si se presionó ESC (salida 1) o si no se seleccionó nada
@@ -42,7 +42,7 @@ height: 350px;}' -theme-str 'mainbox {padding: 10px; spacing: 10px;}' -theme-str
 
     # Pregunta si te gusta el fondo
     CONFIRM=$(echo -e "Si\nNo" | rofi \
-      -theme-str 'window {location: southeast; anchor: southeast; y-offset: -680; x-offset: -10; fullscreen: false; width: 250px;}' \
+      -theme-str 'window {location: southeast; anchor: southeast; y-offset: -666; x-offset: -19; fullscreen: false; width: 250px;}' \
       -theme-str 'mainbox {children: [ "message", "listview" ];}' \
       -theme-str 'listview {columns: 2; lines: 1;}' \
       -theme-str 'element-text {horizontal-align: 0.5;}' \
